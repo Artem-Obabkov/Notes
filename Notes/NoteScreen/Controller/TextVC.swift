@@ -146,7 +146,7 @@ extension TextVC: UITextViewDelegate {
         
     }
     
-    // Отвечает за логику присвоения имени и описания. Лучше туда не лезть
+    // Отвечает за логику присвоения имени и описания. Лучше туда не лезть. Делал как мог :)
     private func getTitleFromTextView() -> (name: String, desc: String, noteText: String) {
 
         // Проверяем не пустой ли textView

@@ -59,6 +59,133 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8B45D2FE2729E4DB007384F8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8B45D3012729E4EF007384F8 /* Model */,
+				8B45D3002729E4EA007384F8 /* View */,
+				8B45D2FF2729E4E3007384F8 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8B45D2FF2729E4E3007384F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BDDA59225D1929F00840A30 /* AppDelegate.swift */,
+				8BDDA59425D1929F00840A30 /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B45D3002729E4EA007384F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BDDA59825D1929F00840A30 /* Main.storyboard */,
+				8BDDA59D25D192A200840A30 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B45D3012729E4EF007384F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B45D3032729E504007384F8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8BDDA59B25D192A200840A30 /* Assets.xcassets */,
+				8BDDA5A025D192A200840A30 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8B45D35F272AA9E6007384F8 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8B45D362272AAA00007384F8 /* Model */,
+				8B45D361272AA9FC007384F8 /* View */,
+				8B45D360272AA9F7007384F8 /* Controller */,
+				8B45D36A272AAAC3007384F8 /* Manager */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		8B45D360272AA9F7007384F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BDDA5F125D41AD400840A30 /* MainTableView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B45D361272AA9FC007384F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B45D363272AAA3A007384F8 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B45D362272AAA00007384F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BDDA61625D5BF3700840A30 /* ModelNote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B45D363272AAA3A007384F8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8BDDA61025D5BE9A00840A30 /* NoteCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8B45D366272AAA94007384F8 /* NoteScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8B45D369272AAAA8007384F8 /* Model */,
+				8B45D368272AAAA3007384F8 /* View */,
+				8B45D367272AAA9E007384F8 /* Controller */,
+			);
+			path = NoteScreen;
+			sourceTree = "<group>";
+		};
+		8B45D367272AAA9E007384F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BDDA60325D5768E00840A30 /* TextVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B45D368272AAAA3007384F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B45D369272AAAA8007384F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B45D36A272AAAC3007384F8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8B98B0E025DAEC4D006D0605 /* RealmManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		8BDDA58625D1929F00840A30 = {
 			isa = PBXGroup;
 			children = (
@@ -80,17 +207,10 @@
 		8BDDA59125D1929F00840A30 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
-				8BDDA59225D1929F00840A30 /* AppDelegate.swift */,
-				8BDDA59425D1929F00840A30 /* SceneDelegate.swift */,
-				8BDDA61625D5BF3700840A30 /* ModelNote.swift */,
-				8BDDA61025D5BE9A00840A30 /* NoteCell.swift */,
-				8BDDA60325D5768E00840A30 /* TextVC.swift */,
-				8BDDA5F125D41AD400840A30 /* MainTableView.swift */,
-				8B98B0E025DAEC4D006D0605 /* RealmManager.swift */,
-				8BDDA59825D1929F00840A30 /* Main.storyboard */,
-				8BDDA59B25D192A200840A30 /* Assets.xcassets */,
-				8BDDA59D25D192A200840A30 /* LaunchScreen.storyboard */,
-				8BDDA5A025D192A200840A30 /* Info.plist */,
+				8B45D2FE2729E4DB007384F8 /* Application */,
+				8B45D35F272AA9E6007384F8 /* MainScreen */,
+				8B45D366272AAA94007384F8 /* NoteScreen */,
+				8B45D3032729E504007384F8 /* SupportingFiles */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -373,7 +493,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27XLCNX4SV;
-				INFOPLIST_FILE = Notes/Info.plist;
+				INFOPLIST_FILE = Notes/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -393,7 +513,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27XLCNX4SV;
-				INFOPLIST_FILE = Notes/Info.plist;
+				INFOPLIST_FILE = Notes/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

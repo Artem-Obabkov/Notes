@@ -49,7 +49,7 @@ class MainTableView: UIViewController, UITableViewDelegate, UITableViewDataSourc
         self.definesPresentationContext = true
     }
     
-    // Работа с таблицой
+    // Работа с таблицей
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -168,7 +168,6 @@ class MainTableView: UIViewController, UITableViewDelegate, UITableViewDataSourc
             let date = dateFormatter.string(from: noteDate)
             
             textVC.noteCreationDate = date
-            
             
             
             textVC.segueID = "editTextVC"
